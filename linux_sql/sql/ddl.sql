@@ -1,7 +1,5 @@
-# ddl.sql pseudocode/steps
-# you can assume database is already created mannually
 
-postgres=# \c host_agent;
+\c host_agent
 
 CREATE TABLE IF NOT EXISTS PUBLIC.host_info
   (
