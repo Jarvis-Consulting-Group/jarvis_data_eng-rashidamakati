@@ -2,7 +2,7 @@
 ***
 ## Introduction
 ***
-The Linux Monitoring agent is a tool which allows the user to monitor resource utilization on the linux servers. This tool track records of server utilization every minute and provide real time resource usage to the users which is then stored in the RDBMS.
+The Linux Monitoring agent is a tool which allows the user to monitor resource utilization on the linux servers. This tool track records of server utilization every minute and provide real time resource usage to the users which is then stored in the PSQL DB.
 
 The stored data can be used to generate reports to analyse the resource usage along with the hardware specifics of every node in the cluster.
 
@@ -21,13 +21,14 @@ The technology used are Bash scripts, POSTgreSQL, docker, IDE etc.
 To implement this tool, we setup docker container and created an instance of PSQL using docker.
 - psql is the instance created to register the data collected from running the following two files.
 - host_info.sh script is created to collect host hardware info and added to the DB when the system is installed.
-- gost_usage.sh is the script created to run every minute in the host system to keep track of the system usage (CPU, disk etc) and stored in the DB.
+- host_usage.sh is the script created to run every minute in the host system to keep track of the system usage (CPU, disk etc) and stored in the DB.
 - cron job is run every minute to collect system info and a log file is created which stores information it generated from running that cron.
 
 
 ## Architecture and Design
 ![Linux Monitoring tool](./assets/lmt_Architecture.drawio.png) 
-In the above diagram there are clusters connected with network switch and the cluster is monitored using the linux monitoring tool. Every node consists of two scripts host_info runs when the system is installed and host_usage  is run every minute to collect the data from the nodes and the data is stored in PSQL DB.
+
+In the above diagram there are clusters connected with network switch and the cluster is monitored using the linux monitoring tool. Every node consists of two scripts, host_info script runs when the system is installed and host_usage script  is run every minute to collect the data from the nodes and the data is stored in PSQL DB.
 
 ## Scripts
 ***
@@ -71,4 +72,16 @@ In the above diagram there are clusters connected with network switch and the cl
 ## Test
 ***
 
-We created a single node and installing all the prerequisite environment
+We created a single node and installed all the prerequisite software. Every bash script created was tested by running and checking the data manually. To verify that the script ran successfully, I checked the database by running the select query and verifying the data against test data.
+
+This setup also will work when used a in cluster assuming the connection and firewall is setup as well.
+
+## Deployment
+***
+The program uses Github to manage its code and Docker for provisioning the Database. We use cron to run the scripts on scheduled time.
+
+## Improvements
+***
+- We can generate comprehensive reports and dashboards to analyze the system performance.
+- Setting up alerts to identify poor performing node.
+- We can make the system support multiple linux distributions.
