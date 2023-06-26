@@ -1,21 +1,21 @@
 # Rashida Makati . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+Detail Oriented and passionate Software Developer with 3+ years of experience developing web applications, writing, and testing end-to-end automation for the applications and API endpoints. I completed my Master's degree from the University of Denver in Software Engineering. With academic knowledge and experience, I have learned the skills of being proficient in various platforms and languages. I am adept at identifying opportunities to enhance the user experience and develop new features to improve applications.
 
 ## Skills
 
 **Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
+**Competent:** Python, Javascript, HTML/HTML5, CSS/CSS3, JIRA
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Familiar:** Postman, Azure, AWS, AngularJS, Selenium
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Developed a Linux cluster monitoring tool using bash scripts that run on the system to collect hardware usage and store the data in the PSQL database using Docker.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
       
@@ -35,30 +35,30 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Binary talk using Slack API**: Created a conversational chatbot using Python and MYSQL that responds to user questions. Used NLTK library for constructing synonym generator. It includes a basic step to implement NLP to understand and respond to the user.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Weather Information System**: Developed Java web application that allows users to select the date from the dropdown and send a request to the OpenWeatherMap API. This application will further extract the required data and display the highest and lowest temperature for the day along with the direction of wind, humidity, and rain.
 
 
 ## Professional Experiences
 
 **Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Software Developer, Bond Brand Loyalty (2021-2022)**: Worked on designing and implementing test cases for REST API endpoints using Javascript. Managed the release for the code in Azure DevOps using CI/CD.
+
+**Software Developer, Spectrum (2018-2020)**: Developed automation in Resolve tool using Java and MariaDB for in-house teams and created a dashboard to track all the automation using HTML5, CSS3, Javascript, and MariaDB. Designing and writing test cases for the automation.
+
+**Software Developer, NCrypted technologies (2014-2015)**: Coded dynamic and interactive web applications using technologies like J2EE, HTML5, CSS3, Javascript, JQuery, Ajax, and SQL. Designed and generated dynamic relational graphs to display user information using AJAX, JSON, and javascript which enhanced UI experience.
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
+**University of Denver (2017-2018)**, Master's, Software Engineering
+- GPA: 3.9/4.0
 
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**Gujarat Technical University (2009-2013)**, Bachelors, Computer Engineering
+- GPA: 3.8/4.0
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Hiking
+- Baking
