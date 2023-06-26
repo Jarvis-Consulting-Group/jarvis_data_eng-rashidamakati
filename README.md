@@ -60,4 +60,5 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 
 
 ## Miscellaneous
-- hello
+- Hiking
+- Baking
