@@ -1,12 +1,18 @@
 # Rashida Makati . Jarvis Consulting
 
-Detail Oriented and passionate Software Developer with 3+ years of experience developing web applications, writing, and testing end-to-end automation for the applications and API endpoints. I completed my Master's degree from the University of Denver in Software Engineering. With academic knowledge and experience, I have learned the skills of being proficient in various platforms and languages. I am adept at identifying opportunities to enhance the user experience and develop new features to improve applications.
+Detail Oriented and passionate Software Developer with 3+ years of experience developing web applications, 
+writing, and testing end-to-end automation for the applications 
+and API endpoints. I completed my Master's degree from the 
+University of Denver in Software Engineering. 
+With academic knowledge and experience, I have become proficient in languages like Java and Javascript. 
+I am adept at identifying opportunities to enhance the user 
+experience and develop new features to improve applications.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Java, Javascript, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** Python, Javascript, HTML/HTML5, CSS/CSS3, JIRA
+**Competent:** Python, Linux/Bash, HTML/HTML5, CSS/CSS3, JIRA
 
 **Familiar:** Postman, Azure, AWS, AngularJS, Selenium
 
@@ -15,7 +21,9 @@ Detail Oriented and passionate Software Developer with 3+ years of experience de
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Developed a Linux cluster monitoring tool using bash scripts that run on the system to collect hardware usage and store the data in the PSQL database using Docker.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Developed a Linux cluster monitoring tool using bash 
+scripts that runs on the system to collect hardware usage and 
+store the data in the PSQL database using Docker.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
       
