@@ -1,0 +1,102 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "GPA: 3.9/4.0"
+      ],
+      "degree": "Masters",
+      "department": "Software Engineering",
+      "duration": "2017-2018",
+      "school_name": "University of Denver"
+    },
+    {
+      "awards_achievements": [
+        "GPA: 3.8/4.0"
+      ],
+      "degree": "Bachelors",
+      "department": "Computer Engineering",
+      "duration": "2009-2013",
+      "school_name": "Gujarat Technical University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-rashidamakati",
+  "highlighted_projects": [
+    {
+      "description": "Created a conversational chatbot using Python and MYSQL that responds to user questions. Used NLTK library for constructing synonym generator. It includes creating a spreadsheet that contains questions and their response to implement NLP which enables users to get an appropriate response to their questions.",
+      "git_url": null,
+      "name": "Binary talk using Slack API"
+    },
+    {
+      "description": "Developed Java web application that allows users to select the date from the dropdown and send a request to the OpenWeatherMap API. This application will further extract the required data and display the highest and lowest temperature for the day along with the direction of wind, humidity, and rain.",
+      "git_url": null,
+      "name": "Weather Information System"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed a Linux cluster monitoring tool using bash scripts that run on the system to collect hardware specifications and data usage for Linux clusters. The system runs on installation on a node to collect their hardware specification and the system usage data is collected using Crontab which is stored in the PSQL database using the Docker container. The code is maintained in a central repository like Github and uses Git for version control of the code.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    }
+  ],
+  "name": "Rashida Makati",
+  "others": [
+    {
+      "bullets": [
+        "I enjoy Hiking and exploring nature. I do hike by bike as well as on foot in all weathers.",
+        "I love baking and it relaxes me. I bake a lot of desserts like cakes and pastries along with savory dishes like lasagna, tandoori chicken, etc"
+      ],
+      "title": "Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Designing, developing, and testing software systems using technologies like Java, Linux, Docker, and PSQL. Working in a collaborative environment which follows the Agile scrum process for task completion.",
+      "duration": "2023-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Bond Brand Loyalty",
+      "description": "Worked on designing and implementing test cases for REST API endpoints using Javascript. Managed the release for the code in Azure DevOps using CI/CD and monitored incoming customer issues to direct them to the relevant teams.",
+      "duration": "2021-2022",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Spectrum",
+      "description": "Developed automation in Resolve tool using Java and MariaDB for in-house teams and created a dashboard to track all the automation using HTML5, CSS3, Javascript, and MariaDB. Designing and writing test cases for automation. Designed a dashboard that provides statistics for the automation and their failures and generates reports.",
+      "duration": "2018-2020",
+      "title": "Software Developer"
+    },
+    {
+      "company": "NCrypted technologies",
+      "description": "Coded dynamic and interactive web applications using technologies like J2EE, HTML5, CSS3, Javascript, JQuery, Ajax, and SQL. Designed and generated dynamic relational graphs to display user information using AJAX, JSON, and Javascript which enhanced UI experience.",
+      "duration": "2014-2015",
+      "title": "Sr.Web Developer"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Linux/Bash",
+      "Agile/Scrum",
+      "HTML/HTML5",
+      "CSS/CSS3",
+      "JIRA"
+    ],
+    "familiar": [
+      "Postman",
+      "Azure",
+      "AWS",
+      "AngularJS",
+      "Selenium"
+    ],
+    "proficient": [
+      "Java",
+      "Python",
+      "RDBMS/SQL",
+      "Javascript",
+      "Git"
+    ]
+  },
+  "summary": "I am a Detail Oriented and passionate Software Developer with 3+ years of experience developing web applications, building end-to-end automation for in-house applications using Java and MariaDB, and writing scripts to automate testing of REST API endpoints using Javascript and POSTMAN. I completed my Master's degree from the University of Denver in Software Engineering. With academic knowledge and industry experience, I am proficient in various languages like Java, modern Javascript, and Python. I am adept at identifying opportunities to enhance the user experience by designing and developing new features to improve applications. I have been known to take initiative by leading projects and delivering results. I have also mentored interns within my team. Overall, I have decent development experience, a strong technical foundation, and leadership qualities."
+}
