@@ -186,4 +186,98 @@ order by
   f.facid,
   month;
 
+-- Query 21: Find the count of members who have made at least one booking
+Select
+  count(distinct memid)
+from
+  cd.bookings;
 
+-- Query 22: List each member's first booking after September 1st 2012
+Select
+  m.surname,
+  m.firstname,
+  m.memid,
+  min(b.starttime)
+from
+  cd.members as m
+  inner join cd.bookings as b on m.memid = b.memid
+where
+  b.starttime >= '2012-09-01 00:00:00'
+group by
+  m.surname,
+  m.firstname,
+  m.memid
+order by
+  m.memid;
+
+-- Query 23: Produce a list of member names, with each row containing the total member count
+Select
+  (
+    Select
+      count(distinct memid)
+    from
+      cd.members
+  ),
+  firstname,
+  surname
+from
+  cd.members;
+
+-- Query 24: Produce a numbered list of members
+Select
+  row_number() over () as row_number,
+  firstname,
+  surname
+from
+  cd.members
+order by
+  joindate;
+
+-- Query 25: Output the facility id that has the highest number of slots booked, again
+select
+  facid,
+  sum(slots) as totalslots
+from
+  cd.bookings
+group by
+  facid
+having
+  sum(slots) = (
+    select
+      max(sum2.totalslots)
+    from
+      (
+        select
+          sum(slots) as totalslots
+        from
+          cd.bookings
+        group by
+          facid
+      ) as sum2
+  );
+
+-- Query 26: Format the names of members
+Select
+  surname || ', ' || firstname as name
+from
+  cd.members;
+
+-- Query 27: Find telephone numbers with parentheses
+Select
+  memid,
+  telephone
+from
+  cd.members
+where
+  telephone ~ '[()]';
+
+-- Query 28: Count the number of members whose surname starts with each letter of the alphabet
+Select
+  substring(surname, 1, 1) as letter,
+  count(memid)
+from
+  cd.members
+group by
+  letter
+order by
+  letter;
