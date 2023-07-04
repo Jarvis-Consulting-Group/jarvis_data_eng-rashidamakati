@@ -13,7 +13,7 @@ the file. The operations performed in the data are stored in the
 queries.sql file. For the implementation of this project, I used Git,
 Github, Docker, pgAdmin, and PSQL.
 
-# SQL Quries
+# SQL Queries
 
 ###### Table Setup (DDL)
 ```
