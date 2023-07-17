@@ -13,24 +13,24 @@ skills:
   # At least 5 skills
   proficient:
     - Java
-    - Python
+    - AngularJS
     - RDBMS/SQL
     - Javascript
-    - Git
+    - Node/Express
   # At least 5 skills
   competent:
+    - Python
     - Linux/Bash
     - Agile/Scrum
     - HTML/HTML5
     - CSS/CSS3
-    - JIRA
   # At least 5 skills
   familiar:
     - Postman
-    - Azure
+    - Jest
     - AWS
-    - AngularJS
-    - Selenium
+    - JIRA
+    - Cypress
 
 # List of Jarvis projects
 jarvis_projects:
@@ -45,9 +45,9 @@ jarvis_projects:
 #      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
 #      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
 #      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-#  - name: "Springboot App"
-#    git_url: "/springboot"
-#    description: ""
+  - name: "Angular Node/Express App"
+    git_url: ""
+    description: "Developed an App using Angular as frontend and Express/Node as backend. In this app, I created APIs like GET, POST, and DELETE to perform operations on the Database. The app was to create a list of ToDos and display the data. Using this App, the user can view all their ToDos, create a new task, search for any task using the task name, and delete the task. For testing the APIs of the App, I used Jest and supertest to write unit tests for each of the APIs. For the frontend testing, I used Cypress to test functionality and display of the App."
 #  - name: "Python Data Analytics"
 #    git_url: "/python_data_anlytics"
 #    description: ""
