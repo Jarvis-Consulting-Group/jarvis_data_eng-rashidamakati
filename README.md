@@ -4,7 +4,7 @@ I am a Detail Oriented and passionate Software Developer with 3+ years of experi
 
 ## Skills
 
-**Proficient:** Java, AngularJS, RDBMS/SQL, Javascript, Node/Express
+**Proficient:** AngularJS, RDBMS/SQL, Javascript/Typescript, Node/Express, Java
 
 **Competent:** Python, Linux/Bash, Agile/Scrum, HTML/HTML5, CSS/CSS3
 
